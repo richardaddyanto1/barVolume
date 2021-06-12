@@ -58,16 +58,16 @@ class MainActivity : AppCompatActivity(), View.OnClickListener {
 
                 if (inputLength.isEmpty()) {
                     isEmptyFields = true
-                    binding.edtLength.error = "Field ini tidak boleh kosong"
+                    binding.edtLength.error = "This field can not be ampty"
                 }
 
                 if (inputWidth.isEmpty()) {
                     isEmptyFields = true
-                    binding.edtWidth.error = "Field ini tidak boleh kosong"
+                    binding.edtWidth.error = "This field can not be ampty"
                 }
                 if (inputHeight.isEmpty()) {
                     isEmptyFields = true
-                    binding.edtHeight.error = "Field ini tidak boleh kosong"
+                    binding.edtHeight.error = "This field can not be ampty"
                 }
 
                 if (!isEmptyFields) {
